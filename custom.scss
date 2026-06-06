@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+
+// FirstEpoch Handbook theme — minimal, MLH-guide-inspired.
+// Generous whitespace, strong readable typography, one accent colour.
+
+// Accent / primary colour.
+$primary:        #6b0976 !default;
+$link-color:     $primary !default;
+
+// Typography: readable system font stack, comfortable line length & rhythm.
+$font-size-root:    18px !default;
+$line-height-base:  1.65 !default;
+$headings-font-weight: 600 !default;
+
+/*-- scss:rules --*/
+
+// Links carry the accent colour and only underline on hover for a clean look.
+a {
+  color: $primary;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: $primary;
+  text-decoration: underline;
+}
+
+// Headings: accent colour, generous spacing above for clear sectioning.
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  margin-top: 1.6em;
+}
+h1 { margin-top: 0; }
+
+// Active / hovered sidebar item picks up the accent colour.
+.sidebar-navigation .sidebar-item .sidebar-item-container .active,
+.sidebar-navigation .sidebar-item a:hover {
+  color: $primary;
+}
+.sidebar-navigation .sidebar-item .active {
+  font-weight: 600;
+  border-left: 3px solid $primary;
+}
+
+// Right-hand TOC: highlight the active section with the accent colour.
+#TOC .active,
+.toc-actions a:hover {
+  color: $primary;
+}
+
+// Subtle accent on blockquotes for visual hierarchy without clutter.
+blockquote {
+  border-left: 3px solid $primary;
+  color: inherit;
+}

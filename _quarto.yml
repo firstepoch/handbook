@@ -1,25 +1,67 @@
 project:
   type: book
+  output-dir: _book
+
+# --- Drafts -----------------------------------------------------------------
+# Mark any chapter's front matter with `draft: true` to keep it out of the
+# published build entirely (no page, no sidebar link, no search entry).
+# `draft-mode: gone` makes drafts fully invisible in the rendered site, so
+# merged-but-not-ready chapters can sit on the default branch without leaking
+# into the published handbook.
+draft-mode: gone
 
 book:
-  title: "handbook"
-  author: "Norah Jones"
-  date: "6/6/2026"
+  title: "FirstEpoch Handbook"
+  author:
+    - "Alice Heiman"
+    - "Maty Bohacek"
+  favicon: assets/logo-square.png
+  search: true
+  # Clean sidebar-navigation layout: a persistent docked left sidebar holding
+  # the chapter list, plus next/prev page navigation.
+  sidebar:
+    style: docked
+    collapse-level: 1
+    # Sidebar logo. The image is referenced here so it "just works"; see
+    # assets/README.md for the expected asset conventions.
+    logo: assets/logo-square.png
+  page-navigation: true
+  # Published at the project subpath on GitHub Pages:
+  #   https://firstepoch.github.io/handbook/
+  site-url: https://firstepoch.github.io/handbook/
+  repo-url: https://github.com/firstepoch/handbook
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
 
+# --- Citations --------------------------------------------------------------
+# BibTeX database; citations are rendered by Pandoc's citeproc.
 bibliography: references.bib
+# Sensible default citation style: Chicago author-date (citeproc's built-in
+# default). To change styles, drop a .csl file in the repo and uncomment:
+# csl: chicago-author-date.csl
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
+      - custom.scss          # accent colour + minimal MLH-guide-style tweaks
+    grid:
+      body-width: 800px       # single, readable content column
+    toc: true
+    toc-depth: 3
+    # Cross-references, code highlighting and math are on by default — set
+    # explicitly so nothing here accidentally turns them off. Raw HTML
+    # passthrough is also enabled by default for HTML, which is what lets
+    # Datawrapper <iframe> embeds and the built-in {{< video >}} (YouTube)
+    # shortcode work later with no extra configuration.
+    code-copy: true
+    highlight-style: github
+    html-math-method: katex
 
-
-
+# Number cross-references per chapter.
+crossref:
+  chapters: true
