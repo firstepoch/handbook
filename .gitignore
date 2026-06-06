@@ -1,0 +1,20 @@
+# Quarto build output
+/_book/
+/.quarto/
+/site_libs/
+*.html.md
+
+# Quarto / Jupyter execution artifacts
+/.jupyter_cache/
+__pycache__/
+*.ipynb_checkpoints/
+
+# rendered single-format leftovers
+/_freeze/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
