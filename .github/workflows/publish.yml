@@ -1,0 +1,34 @@
+name: Publish
+
+# Build and deploy the handbook to GitHub Pages ONLY when commits land on the
+# default branch. Pull requests and feature/draft branches never publish, so
+# work-in-progress stays private until it is merged.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # quarto publish pushes the rendered site to gh-pages
+
+# Avoid overlapping deploys.
+concurrency:
+  group: quarto-publish
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
