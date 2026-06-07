@@ -8,5 +8,92 @@
     "crumbs": [
       "Preface"
     ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html",
+    "href": "ml-conferences/module-01.html",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "",
+    "text": "Introduction\nHow do you keep track of the understanding of an entire scientific field across space and time?\nThere are many ways to share your work, such as via presentations, blog posts, and social media. But to have your work published should mean that it passes a higher bar than a simple blog post. Namely, your work should follow the scientific method such that any claimed results actually advance the understanding of the field.\nThe rigor of the process (e.g. through hypothesis testing and expert peer review) is what allows us to confidently build on past work without reinventing the wheel each time.\nJournals are the traditional way for researchers to share scientific knowledge (with notable examples including Nature and Science).\nThese documents, known as papers, describe in detail what question(s) the researchers explored, their hypotheses, what data and methods they used, what results they got, and a discussion about their work and how it fits into the general field. Thus, journal papers are ways to document the progress in the field.\nHowever, the field of Computer Science publishes research papers through conferences, with conference proceedings being as prestigeful as journals are in other domains (such as physics and environmental science) (Vardi 2009).\nThe submissions to AI conferences have exploded over the past years as interest in AI and ML have skyrocketed, as seen below.\nSince AI conferences are one of the main ways for AI researchers to distribute their research, meet others, and get opportunities in the field, it is crucial to understand how they work, what there is to learn from them, and how you can participate yourself.\nThese topics are exactly what we will cover in the next few modules.",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#introduction",
+    "href": "ml-conferences/module-01.html#introduction",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "",
+    "text": "The value of the scientific method.",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#why-ai-conferences",
+    "href": "ml-conferences/module-01.html#why-ai-conferences",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "Why AI conferences?",
+    "text": "Why AI conferences?\n\nTL;DR: An AI conference is a gathering of AI researchers where they can share and get feedback on their work, learn from their peers, and find new collaborators and opportunities.\n\nThere are many reasons why conferences are valuable for the scientific community (Conference 2024) and are especially important for the AI community.\n\nExchange Knowledge: Conferences are ways to both present and get feedback on your own work, and learn from other people’s work. The Conference Proceedings act as a summary of the progress in the field and is a way to disseminate the research to a broad audience. Many conferences also include dedicated tutorial sessions and learning events for participants to pick up new skills.\nFind Collaborator and Community: Conferences are landmark annual events that many people attend in person. Gathering many people from all over the world in the same place is thought to foster new collaborations, seed new ideas, and discover topics you didn’t knew existed before. Face-to-face interactions are also incredibly important to build relationships and community. There are often many socials surrounding the conference days for people to meet new people.\nGet Opportunities: Getting published in conferences is often important to get both academic and industry positions. Most conferences also have extensive sponsor presence with recruiters, industry events, and opportunities just for participants.\n\n\n\n\n\n\n\nNote\n\n\n\nOne reason why computer science prefers AI conferences over journals is because of their faster publish cycles. However, due to the fast pace of the field, even conferences have become too slow to accurately communicate the latest results. However, conferences still serve as important events due to their many other purposes. We explore this and other limitations of AI conferences in the last module.\n\n\nFor young researchers, conferences are often how to get the foot through the door into the world of AI research.",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#major-ai-conferences",
+    "href": "ml-conferences/module-01.html#major-ai-conferences",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "Major AI conferences",
+    "text": "Major AI conferences\nBelow is a table of some of the major general AI conferences to follow, but note that there may be more specialized and relevant conferences for your domain (such as MICCAI for computational imaging). We go more into detail in how to find and choose a venue in the next module.\n\n\n\nName\nWhat the name means\nFocus\nLink\n\n\n\n\nNeurIPS\nConference on Neural Information Processing Systems\nGeneral ML/AI, with strong roots in neural networks\nnips.cc\n\n\nICML\nInternational Conference on Machine Learning\nCore ML theory, optimization, algorithms\nicml.cc\n\n\nICLR\nInternational Conference on Learning Representations\nDeep learning / representation learning\niclr.cc\n\n\nCVPR\nConference on Computer Vision and Pattern Recognition (IEEE/CVF)\nComputer vision\ncvpr.thecvf.com\n\n\nAAAI\nAssociation for the Advancement of Artificial Intelligence\nGeneral AI, more applications-oriented\naaai.org\n\n\nACL\nAnnual Meeting of the Association for Computational Linguistics\nNatural language processing\naclweb.org\n\n\n\nEach conference is usually hosted on an annual basis with a new location every year. Their deadlines to submit a paper are spread throughout the year, so you often always have a future conference coming up!",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#the-anatomy-of-an-ai-conference",
+    "href": "ml-conferences/module-01.html#the-anatomy-of-an-ai-conference",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "The anatomy of an AI conference",
+    "text": "The anatomy of an AI conference\nAlthough each conference is unique, they usually follow a similar structure.\nBefore the conference:\n\nCall for Papers: a period in which researchers can submit their papers.\nReview Process: papers are reviewed and scored, often giving authors a chance to respond (rebutall).\n\nDuring the conference:\nThe conference days themselves usually include the following parts:\n\nOpening Ceremony: introductions, an overview of the organizational structure, statistics, a welcome, often an artistic event, and award ceremony.\nKeynotes: invited talks by major researchers in the field.\nPoster Sessions: the main event, run like a science-fair to share knowledge and get feedback. Authors are assigned a location and time to put up their poster, and all accepted papers get a poster slot.\nOral Sessions: spotlight talks by authors of selected papers.\nSponsor Booths and Expos: industry events, talks, and recruitment.\nSocials: gatherings for specialized groups (for instance, women in CS or people in computational biology), mentorship sessions, and evening dinners and activities.\nTutorials: skill-building sessions.\nWorkshops: specialized sessions held directly before or after the main conference. They act like mini sub-conferences, with their own paper submission tracks, peer review, and poster sessions, and usually run for a day or half-day.\n\n\n\n\nThe general anatomy of an AI conference.\n\n\nBelow is a video from ICLR 2026 giving you a taste of how an actual AI conference looks like!",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#how-are-ai-conferences-organized",
+    "href": "ml-conferences/module-01.html#how-are-ai-conferences-organized",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "How are AI conferences organized?",
+    "text": "How are AI conferences organized?\nThe amazing thing is, AI conferences are run by volunteers from the research community itself.\n\n\n\nThe general organizational structure of AI conferences.\n\n\nThe structure can be roughly split into three layers:\n\nPermanent Governing Body (Steering Committee / Board / Foundation): the long-lived organization that persists across years. It appoints and approves the team that runs each individual edition of the conference.\nOrganizing Committee: in charge of running one year’s conference.\n\nGeneral Chair(s): lead the whole event and oversee the other chairs.\nProgram Chair(s) (PCs): responsible for the papers and review process.\nWorkshop Chair(s): responsible for the workshops.\nSocial Chair(s): responsible for the social events.\n…and other “[XYZ] Chairs”: each is the person in charge of [XYZ], following the same naming pattern.\n\nProgram Committee: runs the actual reviewing, in a chain of decreasing scope.\n\nSenior Area Chair(s) (SACs): oversee a broad area and coordinate the Area Chairs under them.\nArea Chair(s) (ACs): manage a narrower topic area and the reviewers within it.\nReviewers: read and score the submitted papers.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf this seems like a lot of work to do for free outside of your regular (alread full-time) job, it is because it really is!\nThe entire system runs on the volunteering work of the research community. Therefore, it is AI research etiquette that if you submit a paper, you also volunteer to review a paper. In practice, many large conferences now formalize this expectation: authors may be required to register as reviewers, and failing to deliver reviews can result in your own paper being penalized or desk-rejected.",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "ml-conferences/module-01.html#conclusion",
+    "href": "ml-conferences/module-01.html#conclusion",
+    "title": "Module 1 — An Introduction to AI Conferences",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nAI research is published through conferences, not journals. Unlike most scientific fields, computer science publishes its peer-reviewed work primarily through conferences rather than journals, where the proceedings carry the same prestige.\nThey are about far more than papers. A conference is a gathering where researchers exchange knowledge, find collaborators and community through in-person interaction, and access career opportunities.\nThe whole system is run by the community, for the community. From the governing body down to individual reviewers, conferences depend on the volunteer labor of researchers themselves. Participating, including submitting papers yourself and giving back through reviewing, is how you become part of the field.\n\n\n\n\n\nConference, Global. 2024. “What Is the Purpose of a Research Conference?” In Global Conference Alliance Inc. https://globalconference.ca/what-is-the-purpose-of-a-research-conference/.\n\n\nVardi, Moshe Y. 2009. “Conferences Vs. Journals in Computing Research.” Acm.org, ahead of print, May. https://doi.org/10.1145\\/1506409.1506410.",
+    "crumbs": [
+      "ML Conferences",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 — An Introduction to AI Conferences</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Conference, Global. 2024. “What Is the Purpose of a Research\nConference?” In Global Conference Alliance Inc. https://globalconference.ca/what-is-the-purpose-of-a-research-conference/.\n\n\nVardi, Moshe Y. 2009. “Conferences Vs. Journals in Computing\nResearch.” Acm.org, ahead of print, May. https://doi.org/10.1145\\/1506409.1506410.",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
