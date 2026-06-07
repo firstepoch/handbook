@@ -34,6 +34,18 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - part: "ML Conferences"
+      chapters:
+        - ml-conferences/module-01.qmd
+        - ml-conferences/module-02.qmd
+        - ml-conferences/module-03.qmd
+        - ml-conferences/module-04.qmd
+        - ml-conferences/module-05.qmd
+        - ml-conferences/module-06.qmd
+        - ml-conferences/module-07.qmd
+        - ml-conferences/module-08.qmd
+        - ml-conferences/module-09.qmd
+        - ml-conferences/module-10.qmd
     - summary.qmd
     - references.qmd
 
@@ -46,6 +58,8 @@ bibliography: references.bib
 
 format:
   html:
+    # Plain chapter titles in the sidebar — no "1.", "2." numbering.
+    number-sections: false
     theme:
       - cosmo
       - custom.scss          # accent colour + minimal MLH-guide-style tweaks
