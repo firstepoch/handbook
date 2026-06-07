@@ -1,0 +1,16 @@
+# Module 3 — Submission
+
+- LaTeX blind vs non-blind
+- Deadlines
+- OpenReview/CMT systems
+- Authorship guides
+    - i.e. how to navigate this! (refer to entire page / guide on this)
+
+- Checklist of good steps to take
+
+
+::: {.callout-note title="Tip!"}
+- Submit your abstract early well before the deadline to have something in.
+- Set a virtual deadline at least 2 days before where you do a test submission.
+- When collaborating with others, set a deadline well before to get their comments and discussion, after which you move forward with the submission
+:::
