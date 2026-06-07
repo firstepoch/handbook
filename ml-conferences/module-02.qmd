@@ -1,7 +1,14 @@
 # Module 2 — Choosing a Venue
 
-## How to find conferences
+- How to find conferences
 
-## Main vs. workshop vs. tutorial
+- Do work for a specific conference, or find a specific conference for your work?
 
-## Archival vs. non-archival
+- Main vs. workshop vs. tutorial
+
+- Starting out as a student
+    - Workshops
+    - Tiny papers
+    - Student opportunities
+
+- Understanding Archival vs. non-archival
