@@ -1,14 +1,8 @@
-# Module 7 — Logistics
+# Module 7 — Attending The Conference
 
-- Accomodation
-- Flights
-- Volunteering
-- Conference fees
-- Budgeting
-    - Like when applying for research grants what is reasonable to put
-- Scholarships & Financial Aid & Research grants
-- Student opportunities and 
-- VISAs, vaccinations
+- different approaches
+    - but social the most value, so coffee chats coffee chats coffee chats 
 
-- Checklists
-    - Book and unbook!
+::: {.callout-note title="Tip!"}
+Take micro-breaks throughout the day
+:::

@@ -1,12 +1,20 @@
-# Module 4 — Review Process
+# Module 4 — Review and Rebuttal
 
-- can often feel first time: what is this?!
+So you just submitted your work, yay! But what happens with your paper after you submit it?
+
+Surprisingly, there is a lot going on behind the scenes. In this module, we will cover the *Review and Rebuttal Process*.
+
+![The general review process flow.](../assets/images/conferences-review-process.png){#review-process width=100% fig-align="center"}
+
+
+
+
+
 
 - review process
 
 - actual examples of reviews pulled from Open Review as case studies
 
-![The general review process flow.](../assets/images/conferences-review-process.png){#review-process width=100% fig-align="center"}
 
 ::: {.callout-note title="Tip!"}
 Don't get discouraged by a rejection. Reviews = feedback = useful for next one. Can resubmit work to next conference. Often stochastic, i.e. very much dependent on the reviewers you get (how thourough they are, if they understand what you did, etc.).
