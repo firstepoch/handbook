@@ -1,7 +1,5 @@
 # Module 2 — Choosing a Venue
 
-## Introduction
-
 Now that you know what conferences are and why they are important, how do you actually go about finding and choosing between them so that you can participate? 
 
 There are multiple platforms to do so, which we'll cover next.
@@ -122,6 +120,13 @@ There are two main types of submissions:
 | **Workshop** | Shorter papers, extended abstracts, or position papers on a focused or emerging topic, co-located with a main conference. Organised by the community around a specific subfield or cross-disciplinary theme. | More accessible entry point; suitable for early-stage, speculative, or negative-results work; faster review turnaround; excellent for community building within a subfield; can gain visibility at top conferences without competing in the main track. | Usually not formally citable (non-archival); prestige and review rigour vary widely across workshops; shorter format limits methodological depth; weighted less in academic evaluation than main-track papers. |
 
 Some might want to target the **main conference papers** due to its prestige and larger visibility (if accepted) in the ML community, but others may value **workshop papers** higher due to the increased relevance of engaging directly with a specialized community within the larger ML domain.
+
+::: {.callout-note}
+**Archival vs. non-archival.** One important thing to consider is whether the venue is archival or non-archival.
+
+- *Archival*: means the work goes into the *official proceedings*. You are not allowed to have the same work under review in more than one place at a time. (That doesn't mean you only get one shot ever, just that at any given point it can only be in review in one place.)
+- *Non-archival*: (often some workshops) means that the work is not published as part of official proceedings. That means you can submit the same work to multiple places, which is useful when your goal is purely to get more feedback and comments on it for a future full submission.
+:::
 
 ## Student and first-time researcher strategies
 
