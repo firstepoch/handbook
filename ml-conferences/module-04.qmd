@@ -1,17 +1,28 @@
-# Module 4 — Review Process
+# Module 4 — Writing a Review
 
-- can often feel first time: what is this?!
-
-- review process
-
-- actual examples of reviews pulled from Open Review as case studies
+Once a paper gets submitted, it undergoes peer review. This process is meant to provide feedback on the quality of the work submitted, as well as determine whether it meets the bar for publication. This process is conducted by an area chair and a set of reviewers (sometimes also called program committee members), who are all matched with your paper based on expertise and seniority. Even if you're not called to provide a review yourself, understanding these roles is important for your own submissions and providing a good rebuttal.
 
 ![The general review process flow.](../assets/images/conferences-review-process.png){#review-process width=100% fig-align="center"}
 
-::: {.callout-note title="Tip!"}
-Don't get discouraged by a rejection. Reviews = feedback = useful for next one. Can resubmit work to next conference. Often stochastic, i.e. very much dependent on the reviewers you get (how thourough they are, if they understand what you did, etc.).
-:::
+> **Area Chair.** Mostly senior researchers, who are assigned a larger batch of papers (often 10–20), where they coordinate reviewers, ensure guidelines are met, and provide a final decision on a paper. While they are required to read the complete reviewer discussion and rebuttals, their own feedback is generally short, as it is meant to justify the final decision.
 
-::: {.callout-note title="Tip!"}
-Open-review allows you to see the reviews of other's papers. A great way to see what reviews actually looks like. learn the type of comments and notes reviewers often give, anticipate that.
-:::
+> **Reviewers.** Researchers with experience in the respective field, who are assigned a small batch of papers (usually 2–4), for which they provide extensive feedback. In addition to qualitative feedback, they also submit quantitative scores that are combined with other reviewers' scores to determine final acceptance.
+
+## Writing a Good Review
+
+If you're assigned a review, make sure to read the paper carefully before jumping to conclusions. The good news here is that most venues will provide you with a template and a set of criteria to consider in your review. Generally, reviews are expected to weigh in:
+
+1. Correctness
+2. Clarity of Presentation
+3. Novelty
+4. Adherence to Policies
+
+Additionally, we recommend the following guiding principles:
+
+- **Respect anonymization.** If the paper is anonymized, do not attempt to search for the paper on arXiv or even guess who might have written it.
+
+- **Review the AI Usage Policy first.** While it may be tempting to use AI to summarize or help decide with your reviews, especially when you're just starting out, make sure to carefully review the AI policy of the venue for which you're reviewing. In most cases, AI is not permitted for reviewing. The few conferences that do permit its use generally require disclosure. We at First Epoch encourage caution for this use case, and recommend that you always read the paper yourself in full, write down your thoughts and score, and only use AI (if desired and allowed by the policy) on top of this draft.
+
+## Obligations and Qualifications
+
+If you don't feel qualified to review, do not hesitate to reach out to the Program Chairs of the conference.
