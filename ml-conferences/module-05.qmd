@@ -1,5 +1,19 @@
-# Module 5 — Preparing the Poster
+# Module 5 — Writing a Rebuttal
 
-::: {.callout-note title="Tip!"}
-The poster doesn't have to explain it all. See it as the *start* of a conversation. If your poster makes people stop in their tracks and become curious to learn more, you did a great job.
-:::
+Once reviews get returned to the authors, the rebuttal period begins. At this stage, authors are called upon to respond to questions, defend the choices they made in their methodology, and potentially run additional experiments.
+
+Here are some suggestions we at First Epoch have found useful:
+
+- **Keep it brief.** While you want to touch upon all the points raised by the reviewers, aiming for the shorter end is generally preferred by both the reviewers and the AC. Moreover, you very likely have a character limit for your rebuttal.
+
+- **Ask the reviewers to clarify when appropriate.** If you genuinely don't know what a reviewer is asking, it is fine to ask them to clarify their questions or suggestions. Similarly, once you feel like you've addressed all concerns, it is fair game to ask the reviewer to increase their score — unless they've already done so.
+
+- **Add a summary note for the AC.** Many ACs have too many papers to manage to reasonably follow each one in detail. It is appreciated when you summarize the rebuttal for the AC, including any experiments you ran and points that were resolved. It is also good to note which reviewers increased their scores.
+
+## Understanding Scores
+
+In recent years, there has been a trend where the average scores at conferences go down. This means that even with scores that might seem low in isolation, you might still be at the top of the batch. Don't get fooled by low scores — trust the process.
+
+## Withdrawal
+
+Withdrawing a paper should be seen as a rare case. Authors generally pull their papers only when the reviews are very bad, the likelihood of acceptance is low, *and* there is an alternative venue to pursue whose timeline would conflict with the main conference. We at First Epoch generally do not recommend withdrawing the paper unless there is a clearly better alternative for it. Shoot your shot.
