@@ -8,12 +8,24 @@ This handbook is a collection of resources to help you break into AI research, e
 
 ## Overview
 
-To be upfront: this is not an AI textbook. We do not aim to duplicate many excellent resources that already cover fundamental math, algorithms, and architectures needed for research work in this field. Rather, we aim to fill gaps between these resources, and organize them into a bigger picture. While doing so, we do not aim to merely catalogue or theorize; this handbook takes a rather practical approach: you will see countless checklists, honest personal experiences, and more. We hope to equip you with a bigger picture of research in the field and intuition around core concepts that will be applicable across problems and datasets.
+To be upfront: this is not a textbook. We do not aim to duplicate many excellent resources that already cover fundamental math, algorithms, and architectures needed for research work in this field. Rather, we aim to fill gaps between these resources, and organize them into a bigger picture. While doing so, we do not aim to merely catalogue or theorize; this handbook takes a rather practical approach: you will see countless checklists, honest personal experiences, and more. We hope to equip you with a bigger picture of research in the field and intuition around core concepts that will be applicable across problems and datasets.
 
 ## Relevant literature
 
-- Computer Vision book
-- TBD
+To make our distinction between this handbook and classical textbooks more specific, here are some free ones, which we found useful. For core math concepts and an introduction to machine learning, we recommend:
+
+- Deisenroth, Faisal, and Ong. [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf).
+- TBD. []().
+
+With that under your belt, it is good to dive into deep learning. Although a bit outdated, this one is a classic, and still holds up:
+
+- Goodfellow, Bengio, and Courville. [Deep Learning]().
+
+Finally, you can start exploring the subfields of AI/ML focused on vision, language, and reinforcement learning:
+
+- TBD. []().
+- Jurafsky and Martin. [Speech and Language Processing]().
+- Sutton and Barto. [Reinforcement Learning: An Introduction]().
 
 ## Authorship
 
