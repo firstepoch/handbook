@@ -1,20 +1,24 @@
 # Preface {.unnumbered}
 
-As outlined in the Introduction, we made this handbook because of our belief that AI research is unique by its combination of relatively low barrier for entry on the front of resources and formal requirements and, on the other side, rather difficult path to mentorship. We believe that the field benefits from a diverse pool of researchers of all ages and a cultivation of good scientific practices. Our hope for this handbook is to make the path to mentorship a little easier.
+As outlined in the  [Introduction](https://firstepoch.github.io/handbook/intro.html), we made this handbook out of a belief that AI research is unusual: the barrier to entry is relatively low in terms of resources and formal requirements, yet the path to mentorship is rather difficult. We believe the field benefits from a diverse pool of researchers of all ages and from the cultivation of good scientific practices, and our hope is that this handbook makes the path to mentorship a little easier.
 
 ## About this handbook
 
-This handbook is a collection of resouces to help you break into AI research, expand your breadth, and cultivate good scientific practices. Formed by our experiences of starting AI research in high school, it is aimed primarily at junior researchers. One guiding principle we've applied while making this handbook is striving to answer questions we had while working on our first projects and publishing our first papers, when we didn't have anyone to turn to. That said, even as we joined labs and continued our research paths, we have found that many things are left unsaid even in formal research environments, and so we hope that even folks with existing reseach experience find these resources useful.
+This handbook is a collection of resources to help you break into AI research, expand your breadth, and cultivate good scientific practices. Formed by our own experiences of starting in this field at high school, the handbook is aimed primarily at junior researchers, hence the name. One of the primary guiding principle we've applied while making it is this: we aim to answer the questions we had while working on our own first AI projects and papers, when we didn't have anyone to turn to. We should note, though, that even as we joined labs and continued our research paths in more formal settings, we have found that many things are left unsaid. The gaps this handbook aims to fill are hence even for folks already working at labs, in graduate programs, and more.
 
 ## Overview
 
+We are upfront in that this is not an AI textbook. We do not aim to duplicate many excellent resources that already cover fundamental math, algorithms, and architectures needed for work in this field. Rather, we aim to fill gaps between these resources, and organize them into a bigger picture. That said, we do not aim to merely catalogue or theorize; this handbook offers a rather practical framing. Beyond leaving motivated, we hope to equip you with a bigger picture of research in the field, and intuition around core concepts that will be applicable across problems and data.
+
 ## Relevant literature
+
+- Computer Vision book
+- 
 
 ## Authorship
 
-All prose in this handbook was written and edited by us, Alice Hemain and Maty Bohacek, with the exception of grammar checking performed by AI and other software tools. 
+All prose in this handbook was written and edited by us, Alice Hemain and Maty Bohacek, with the exception of grammar checking performed by AI and other software tools.
 
-AI has been used to help with the maintanance of this web app, creation of plots, and other coding tasks, as indicated in the git history. The project is open to external contributions subject to our Contribution policies, which, among others, restrict use of AI writing.
+AI has been used to help with the maintenance of this web app, the creation of plots, as well as other coding tasks, as indicated in the git history. The project is open to external contributions subject to our Contribution policies, which, among others, restrict the use of AI writing.
 
 ## Acknowledgements
-
