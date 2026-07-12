@@ -15,17 +15,17 @@ To be upfront: this is not a textbook. We do not aim to duplicate many excellent
 To make our distinction between this handbook and classical textbooks more specific, here are some free ones, which we found useful. For core math concepts and an introduction to machine learning, we recommend:
 
 - Deisenroth, Faisal, and Ong. [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf).
-- TBD. []().
+- James, Witten, Hastie, Tibshirani, and Taylor. [An Introduction to Statistical Learning with Python](https://www.statlearning.com). 
 
 With that under your belt, it is good to dive into deep learning. Although a bit outdated, this one is a classic, and still holds up:
 
-- Goodfellow, Bengio, and Courville. [Deep Learning]().
+- Goodfellow, Bengio, and Courville. [Deep Learning](https://www.deeplearningbook.org).
 
 Finally, you can start exploring the subfields of AI/ML focused on vision, language, and reinforcement learning:
 
-- TBD. []().
-- Jurafsky and Martin. [Speech and Language Processing]().
-- Sutton and Barto. [Reinforcement Learning: An Introduction]().
+- Torralba, Isola, and Freeman. [Foundations of Computer Vision](https://visionbook.mit.edu).
+- Jurafsky and Martin. [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/).
+- Sutton and Barto. [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf).
 
 ## Authorship
 
