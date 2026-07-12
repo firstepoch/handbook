@@ -24,3 +24,23 @@ quarto render
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the branch / preview / PR workflow
 and how to hide work-in-progress chapters with `draft: true`.
+
+## Roadmap
+
+### Conferences
+
+| Name                                  | Lead  | Status      |
+|---------------------------------------|-------|-------------|
+| An Introduction to AI Conferences     | Alice | Complete    |
+| Choosing a Venue                      | Alice | In progress |
+| Submission                            | Alice | In progress |
+| Review                                | Maty  | In progress |
+| Rebuttal                              | Maty  | In progress |
+| Logistics                             |       |             |
+| Giving a talk                         |       |             |
+| Presenting a poster                   |       |             |
+| Attending The Conference              |       |             |
+| Follow-up                             |       |             |
+| Workshop organization                 |       |             |
+| The Limitations of AI Conferences     |       |             |
+| Social media                          |       |             |
