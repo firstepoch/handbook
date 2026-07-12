@@ -1,11 +1,20 @@
 # Preface {.unnumbered}
 
+As outlined in the Introduction, we made this handbook because of our belief that AI research is unique by its combination of relatively low barrier for entry on the front of resources and formal requirements and, on the other side, rather difficult path to mentorship. We believe that the field benefits from a diverse pool of researchers of all ages and a cultivation of good scientific practices. Our hope for this handbook is to make the path to mentorship a little easier.
 
 ## About this handbook
+
+This handbook is a collection of resouces to help you break into AI research, expand your breadth, and cultivate good scientific practices. Formed by our experiences of starting AI research in high school, it is aimed primarily at junior researchers. One guiding principle we've applied while making this handbook is striving to answer questions we had while working on our first projects and publishing our first papers, when we didn't have anyone to turn to. That said, even as we joined labs and continued our research paths, we have found that many things are left unsaid even in formal research environments, and so we hope that even folks with existing reseach experience find these resources useful.
 
 ## Overview
 
 ## Relevant literature
+
+## Authorship
+
+All prose in this handbook was written and edited by us, Alice Hemain and Maty Bohacek, with the exception of grammar checking performed by AI and other software tools. 
+
+AI has been used to help with the maintanance of this web app, creation of plots, and other coding tasks, as indicated in the git history. The project is open to external contributions subject to our Contribution policies, which, among others, restrict use of AI writing.
 
 ## Acknowledgements
 
