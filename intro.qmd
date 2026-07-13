@@ -9,3 +9,9 @@ This unmet demand has led to many seemingly easy fixes. One example for all is [
 We perceive the impact of similar initiatives as a net negative to the field. Not only do they pollute the peer review and literature [https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/], but they leave groups of eager, talented students without genuine mentorship, to say the least. In many cases, they are setting exactly the wrong example for what goals researchers in the field should aspire, how to conduct work on a day-to-day basis, and how to think about attribution and plagiarism. 
 
 At the same time, we genuinely understand the desire to jump right into it and start working on research, no matter the circumstance. We both started our research journeys in high school. Fortunately, we were lucky to find great advisors who helped us find footing without pressure to publish. And we want to help others find the same.
+
+todo: shift to this handbook and our aims with it
+
+todo: positivity and hope
+
+We hope you find this handbook useful, and can't wait to see what you discover.
