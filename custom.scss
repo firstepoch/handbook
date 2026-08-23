@@ -46,6 +46,62 @@ h1 { margin-top: 0; }
   color: $primary;
 }
 
+// ---------------------------------------------------------------------------
+// Sidenotes
+// Footnotes (`[^id]`) render in the right margin via reference-location:
+// margin. On wide viewports, the leftover space past the article is split:
+// sidenotes sit next to the text; the TOC is pushed to the far right.
+// ---------------------------------------------------------------------------
+
+.column-margin,
+div.aside,
+aside:not(.footnotes):not(.sidebar) {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: #4a4a4a;
+}
+
+.column-margin > *,
+div.aside,
+aside:not(.footnotes):not(.sidebar) {
+  border-left: 2px solid $primary;
+  padding-left: 0.75rem;
+}
+
+.column-margin p,
+div.aside p,
+aside:not(.footnotes):not(.sidebar) p {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+
+a.footnote-ref {
+  font-weight: 600;
+  color: $primary;
+}
+
+// Wide screens: use the empty right-hand 5fr track.
+// Sidenotes stay flush with the article; the live TOC docks to the
+// right edge so the two never share a column.
+@media (min-width: 1400px) {
+  #quarto-content.page-columns #quarto-margin-sidebar {
+    grid-column: body-end / screen-end-inset !important;
+    justify-self: end;
+    width: 220px;
+    max-width: 22vw;
+    padding-right: 0.75rem;
+  }
+
+  #quarto-content.page-columns .column-margin,
+  #quarto-content.page-columns div.aside,
+  #quarto-content.page-columns aside:not(.footnotes):not(.sidebar) {
+    grid-column: body-end / screen-end-inset !important;
+    justify-self: start;
+    width: 240px;
+    max-width: 24vw;
+  }
+}
+
 // Subtle accent on blockquotes for visual hierarchy without clutter.
 blockquote {
   border-left: 3px solid $primary;

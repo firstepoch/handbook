@@ -1,4 +1,4 @@
-# Module 1 — An Introduction to AI Conferences
+# 1.1 An Introduction to AI Conferences
 
 ## Introduction
 
@@ -10,7 +10,7 @@ The rigor of the process (e.g. through hypothesis testing and expert peer review
 
 ![The value of the scientific method.](../assets/images/conferences-scientific-method.png){#scientific-method width=100% fig-align="center"}
 
-Journals are the traditional way for researchers to share scientific knowledge (with notable examples including *Nature* and *Science*). 
+Journals are the traditional way for researchers to share scientific knowledge (with notable examples including *Nature* and *Science*).
 
 These documents, known as *papers*, describe in detail what question(s) the researchers explored, their hypotheses, what data and methods they used, what results they got, and a discussion about their work and how it fits into the general field. Thus, journal papers are ways to document the progress in the field.
 
@@ -62,7 +62,7 @@ Although each conference is unique, they usually follow a similar structure.
 *Before the conference:*
 
 - **Call for Papers**: a period in which researchers can submit their papers.
-- **Review Process**: papers are reviewed and scored, often giving authors a chance to respond (*rebutall*).
+- **Review Process**: papers are reviewed and scored, often giving authors a chance to respond (*rebuttal*).
 
 *During the conference:*
 

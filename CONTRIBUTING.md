@@ -23,6 +23,22 @@ drafted in the open.
    Add the chapter file to the `chapters:` list in `_quarto.yml`. Put figures in
    `assets/images/` and cite sources via `references.bib`.
 
+   Footnotes become sidenotes in the gap between the article and the table of
+   contents (and a hover popover on the superscript). Write them with a marker
+   in the sentence and a matching definition:
+
+   ```markdown
+   Conference proceedings carry journal-level prestige.[^vardi]
+
+   [^vardi]: In most scientific fields the archival record lives in journals.
+   ```
+
+   For an unnumbered margin note, use an aside span instead:
+
+   ```markdown
+   [This sits in the margin without a footnote number.]{.aside}
+   ```
+
 3. **Open a PR.** Push the branch and open a pull request against `main` for
    review. Opening a PR does **not** publish anything — only merges to `main`
    trigger a deploy.
