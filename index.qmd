@@ -1,6 +1,12 @@
 # Preface {.unnumbered}
 
-As further outlined in the [Introduction](https://firstepoch.github.io/handbook/intro.html), AI is an unusual field in many qualities. One of them, perhaps less known, is that the barrier to entry for research is relatively low in terms of resources and formal requirements, yet the path to mentorship is rather difficult. We believe the field benefits from a diverse pool of researchers of all ages and from the cultivation of good scientific practices, and our hope is that this handbook makes orientation in the field and ultimately the path to mentorship a little easier.
+As further outlined in the [Introduction](https://firstepoch.github.io/handbook/intro.html), AI is an unusual field in many qualities. 
+
+One of them is that, unlike physical sciences (e.g., physics) or social sciences (e.g., economics), AI does not have a formal theoretical grounding. There are certain intuitions and indirect mathematical results, but not at the level where an AI scientist could conduct experiments in a style common to many other disciplines: posing a hypothesis based on existing models/theory, validating the hypothesis, and adjusting models/theory based on the results. To a certain extent, AI is currently as much of a science as it is engineering; much of the work focuses on constructing new architectures (i.e., designs of how an AI model should be constructed) and optimizing hyperparameters (i.e., parameters of the architecture and the training strategy). As a by-product, we don't understand why or how existing AI models fundamentally work.
+
+In our experience in the field so far, working in both academic and industry roles, we have observed that the status quo makes the expectations for novel work in terms of transparency and explainability minimal. Perhaps more concerningly, it also informs the way junior researchers get trained. In the absence of all-encompassing models/theory, a student first introduced to neural networks usually doesn't get exposed even to the partial understanding we do have about these models. The student may hear about the loose biological motivation for how neural networks are trained, but then suddenly sits in front of a multi-layer perceptron, expected to build up intuitions about its training implicitly. We do not necessarily aspire to provide the ultimate theory of AI in this handbook, but we do believe that more work can be done around building genuine understanding and intuitions, and we aim for this project to serve as a resource for both students and educators.
+
+Another unusual quality about the field of AI, perhaps less known, is that the barrier to entry for research is relatively low in terms of resources and formal requirements, yet the path to good mentorship is rather difficult. We believe the field benefits from a diverse pool of researchers of all ages and from the cultivation of good scientific practices, and our hope is that this handbook makes orientation in the field and ultimately the path to mentorship a little easier.
 
 ## About this handbook
 
@@ -21,15 +27,25 @@ With that under your belt, it is good to dive into deep learning. Although a bit
 
 - Goodfellow, Bengio, and Courville. [Deep Learning](https://www.deeplearningbook.org).
 
-Finally, you can start exploring the subfields of AI/ML focused on vision, language, and reinforcement learning:
+We find it to be greatly complemented by these video tutorials, which are both more up-to-date and visual than the textbook:
+
+- Andrej Karpathy. [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ).
+- 3Blue1Brown. [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
+- Welch Labs. [Neural Networks Demystified](https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU).
+
+Next, you can start exploring the subfields of AI/ML focused on vision, language, and reinforcement learning:
 
 - Torralba, Isola, and Freeman. [Foundations of Computer Vision](https://visionbook.mit.edu).
 - Jurafsky and Martin. [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/).
 - Sutton and Barto. [Reinforcement Learning: An Introduction](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf).
 
+Finally, for a guide to applying deep learning and machine learning to practical problems, we recommend:
+
+- Howard and Gugger. [Practical Deep Learning for Coders](https://course.fast.ai).
+
 ## Authorship
 
-All prose in this handbook was written and edited by us, Alice Hemain and Maty Bohacek, with the exception of grammar checking performed by AI and other software tools.
+All prose in this handbook was written and edited by us, Alice Heiman and Maty Bohacek, with the exception of grammar checking and basic markdown formatting performed by AI and other software tools.
 
 AI has been used to help with the maintenance of this web app, the creation of plots, as well as other coding tasks, as indicated in the git history. The project is open to external contributions subject to our Contribution policies, which, among others, restrict the use of AI writing.
 
