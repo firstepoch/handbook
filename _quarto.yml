@@ -38,7 +38,7 @@ book:
       chapters:
         - ml-conferences/module-01.qmd
         - ml-conferences/module-02.qmd
-        # - ml-conferences/module-03.qmd
+        - ml-conferences/module-03.qmd
         # - ml-conferences/module-04.qmd
         # - ml-conferences/module-05.qmd
         # - ml-conferences/module-06.qmd
