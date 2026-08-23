@@ -27,20 +27,20 @@ and how to hide work-in-progress chapters with `draft: true`.
 
 ## Roadmap
 
-### Conferences
+### 1 AI/ML Conferences
 
-| Name                                  | Lead  | Status      |
-|---------------------------------------|-------|-------------|
-| An Introduction to AI Conferences     | Alice | Complete    |
-| Choosing a Venue                      | Alice | In progress |
-| Submission                            | Alice | In progress |
-| Review                                | Maty  | In progress |
-| Rebuttal                              | Maty  | In progress |
-| Logistics                             |       |             |
-| Giving a talk                         |       |             |
-| Presenting a poster                   |       |             |
-| Attending The Conference              |       |             |
-| Follow-up                             |       |             |
-| Workshop organization                 |       |             |
-| The Limitations of AI Conferences     |       |             |
-| Social media                          |       |             |
+| Name                                      | Lead  | Status      |
+|-------------------------------------------|-------|-------------|
+| 1.1 An Introduction to AI Conferences     | Alice | Complete    |
+| 1.2 Choosing a Venue                      | Alice | In progress |
+| 1.3 Submission                            | Alice | In progress |
+| 1.4 Writing a Review                      | Maty  | In progress |
+| 1.5 Writing a Rebuttal                    | Maty  | In progress |
+| 1.6 Logistics                             |       |             |
+| 1.7 Giving a Talk                         |       |             |
+| 1.8 Presenting a Poster                   |       |             |
+| 1.9 Attending The Conference              |       |             |
+| 1.10 Follow-up                            |       |             |
+| 1.11 Workshop organization                |       |             |
+| 1.12 The Limitations of AI Conferences    |       |             |
+| 1.13 Social media                         |       |             |

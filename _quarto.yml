@@ -34,18 +34,21 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - part: "ML Conferences"
+    - part: "1 AI/ML Conferences"
       chapters:
         - ml-conferences/module-01.qmd
         - ml-conferences/module-02.qmd
         - ml-conferences/module-03.qmd
-        # - ml-conferences/module-04.qmd
-        # - ml-conferences/module-05.qmd
+        - ml-conferences/module-04.qmd
+        - ml-conferences/module-05.qmd
         # - ml-conferences/module-06.qmd
         # - ml-conferences/module-07.qmd
         # - ml-conferences/module-08.qmd
         # - ml-conferences/module-09.qmd
         # - ml-conferences/module-10.qmd
+        # - ml-conferences/module-11.qmd
+        # - ml-conferences/module-12.qmd
+        # - ml-conferences/module-13.qmd
     - summary.qmd
     - references.qmd
 
@@ -65,8 +68,19 @@ format:
       - custom.scss          # accent colour + minimal MLH-guide-style tweaks
     grid:
       body-width: 800px       # single, readable content column
+      # Slightly wider than the default so stacked sidenotes stay readable
+      # on mid-width screens. On wide screens, custom.scss splits this
+      # region: sidenotes beside the article, TOC pushed into the unused
+      # right-hand space.
+      margin-width: 300px
+      gutter-width: 2rem
     toc: true
     toc-depth: 3
+    # Footnotes render as sidenotes in the right margin (between the
+    # article and the TOC). Hover popovers remain as a fallback, and on
+    # narrow screens the notes collapse back into the article flow.
+    reference-location: margin
+    footnotes-hover: true
     # Cross-references, code highlighting and math are on by default — set
     # explicitly so nothing here accidentally turns them off. Raw HTML
     # passthrough is also enabled by default for HTML, which is what lets
