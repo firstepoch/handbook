@@ -1,16 +1,99 @@
 # Module 3 — Submission
 
-- LaTeX blind vs non-blind
-- Deadlines
-- OpenReview/CMT systems
-- Authorship guides
-    - i.e. how to navigate this! (refer to entire page / guide on this)
+You've found a venue and now you're working toward submission! 
 
-- Checklist of good steps to take
+This module covers the practical steps around the submission process, since this can be quite scary and nerve-racking the first time you do it. But fret not! We are here to guide you through the main pieces to take at least some of that stress away. 
 
+::: {.callout-note}
+In this module, we intentionally chose not to focus on the research work itself, since that's the topic of the rest of the handbook.
+:::
+
+## First: the key dates
+
+Wether you are first-timer or seasoned researcher, somehow we all fall into the 11.59pm submission with our fingers crossed that our network will hold up for just a few more moments.
+
+But ideally, the whole process would be a lot less stressful if you from the get-go get really clear about the **key dates and deadlines** so that you are not taken by surprise when time is running out!
+
+There are basically five dates to keep track of:
+
+- **Call for papers**: the period (with a start and end date) during which you can submit your paper to the conference, workshop, or tutorial. This first deadline is the main one to watch.
+- **Abstract deadline** *(some venues)*: sometimes you need to submit just the abstract (the summary of the work) by an earlier date. This can be a couple of weeks before the full paper is due.
+- **Rebuttal deadline** *(if applicable)*: the deadline to submit your rebuttal, which is your response to the reviewers.
+- **Camera-ready deadline** *(if accepted)*: the deadline to submit the final, polished version of your paper for publication. This is where you add back your names and affiliations, incorporate reviewer feedback, and include any code or data links you held back during the blind submission.
+- **Conference dates**: when the actual conference takes place.
 
 ::: {.callout-note title="Tip!"}
-- Submit your abstract early well before the deadline to have something in.
-- Set a virtual deadline at least 2 days before where you do a test submission.
-- When collaborating with others, set a deadline well before to get their comments and discussion, after which you move forward with the submission
+- Submit your paper **early**, well before the deadline, so you have something in (for instance, in the event of platform or network failures, etc.). Most people submit at the very end, leading to a lot of strain on the submission platform which can cause unforseen delays and outages.
+- Set a **virtual deadline** at least a couple of days before the real one, and do a test submission then.
+- When collaborating, set an internal deadline well ahead so you have time for comments and discussion, then move forward with the submission.
 :::
+
+### Timezones
+
+Because science is so international, conferences are held all around the world, and thus deadlines may have **different time zones**. 
+
+In other words, "11:59" is not necessarily *your* time zone. There's a standard called **Anywhere on Earth (AoE)**, which means the deadline holds as long as it's still that time *somewhere* on Earth, but some venues use a specific deadline instead. 
+
+**Always confirm which one applies so you don't get caught out.**
+
+::: {.callout-note title="Alice story time"}
+I remember my first ever workshop submission: I had worked on the project for some time and had essentially everything ready. I wanted to do the final gramatical edits and was so scared to mess up my submission (I though I only had *one* shot) so I decided to go for a walk and finish up in the evening. But once I tried hitting submit at 9pm Pacific Time, it had already well passed midnight in Europe where the conference was held and the platform would not accept my submission. However, behind the scenes, the organizers had set a soft deadline for Europe time and a hard deadline AoE style, so I was able to contact the team and have it submited (and later accepted!). But that was a closer call than I would have liked!
+:::
+
+## Formatting the submission
+
+Most conferences provide a template that you put your content into. You *can* use something like Google Docs, but most people opt for the research authoring platform **[Overleaf](https://www.overleaf.com/)** and write in a markup language called **[LaTeX](https://en.wikipedia.org/wiki/LaTeX)**. 
+
+You download the template files, drop them into Overleaf, and write from there.
+
+What's really nice is that the guidelines are strict: papers must follow certain font sizes, margins, and a page limit. This keeps the style consistent and makes the page limit fair (a four-page limit is the same four pages for everyone, so nobody can shrink their font to squeeze in more content). The page limit also pushes you to get to the point. That said, most conferences are generous about references and the appendix (there's usually no limit on citations, and extensive results, tables, and extra detail can go in the appendix).
+
+::: {.callout-note title="Tip!"}
+**Use the template!** When we say the guidelines are strict, they really are *strict*. We know far too many researchers who have been desk rejected (i.e. rejected without even going through the review process) because their margins were 0.1pt off or their heading sizes were not consistent.
+:::
+
+### Anonymization
+
+When you use these templates, you'll notice the first submission is often *blind*, meaning **you don't put your name on the paper**. This can be confusing at first, but it's intentional: keeping the review anonymous means reviewers don't know who you are, what university or company you're from, or how many authors there are. The goal is a more objective evaluation, with no bias based on your name, your institution, or the size of your team.
+
+Venues differ in *how far* they take this, and it's worth knowing which policy applies before you submit:
+
+- **Double-blind**: neither the authors nor the reviewers know each other's identities. This is the most common setup at machine learning venues, and it's what people usually mean by an "anonymous submission". You remove your names, affiliations, acknowledgements, and any self-identifying references from the paper.
+- **Single-blind**: the reviewers know who the authors are, but the authors don't know who the reviewers are. Here you *do* put your name on the paper, and the anonymity only protects the reviewers so they can give honest feedback without pressure.
+- **Non-blind (open)**: both sides are known, or the reviews are made public. Some venues (and most preprint or camera-ready versions) fall here, where your name appears on the paper from the start.
+
+However, even in a double-blind setup, it's sometimes still possible to deduce the authors. For instance, if you use a very specific method or model that only a specific organization or company has access too, or consistently use the same formatting for plots. So blind review isn't perfect, but it's a step in the right direction to get a more objective peer review.
+
+::: {.callout-note title="Tip!"}
+- **Cite your own prior work in the third person.** When citing your own prior work, even if you are directly following up on it, you should refer to it in the third person, with no implication of this being your own work. What's nice about this is that you can directly call out the limitations of that paper, and directly motivate this follow-up.
+- **Be extra careful with external links.** For a blind submission, be extra careful not to place GitHub links or a personal repository that would reveal who you are. Note in the paper that code and data will be released, and add the actual links later in the camera-ready (non-blind) version.
+:::
+
+## Submission platforms
+
+Initially, conferences used physical (printed) papers and mail to organize peer-review. Can you imagine? 
+
+Once you had your paper, you printed a few copies (one for the organizers and additional copy for each reviewer), put them all in an envelope, and ran to USPS or FedEx before they closed. The conference organizers then had to manually go through all of this received mail, and organize packets of assigned papers for reviewers, and follow a similar process just to send out the papers for review. 
+
+You can imagine how all of this followed. 
+
+At a certain point, all of this moved to email, which made things easier, faster, and more sustainable, but still required heroic administrative work on the part of the organizers. Finally, **submission platforms** entered the game to automate much of the verification, matching, and organization. 
+
+Submission platforms are the digital hubs where you submit your virtual paper package (e.g. the main paper and additional material such as the appendix, data, and ethical and sustainability statements if not included in the main paper) and any metadata about the project, such as authors, contact details, and tags. The platform is also where papers are matched to reviewers, reviewed, and where the final decision is released.
+
+Every conference has its own submission platform and user guidelines, but some of the most popular include:
+
+- **[OpenReview](https://openreview.net/)**
+- **[CMT](https://cmt3.research.microsoft.com/)** (Microsoft Conference Management Toolkit)
+- **[PCS](https://precisionconference.com/)** (Precision Conference Solutions)
+- **[EasyChair](https://easychair.org/)**
+
+::: {.callout-note title="Tip!"}
+Overleaf makes submitting to various submissions platforms easier. In the editor, you can choose to export the entire project as a PDF and ZIP package for upload to, for instance, arXiv.
+:::
+
+::: {.callout-note title="Tip!"}
+**Celebrate! 🎉** Many people just celebrate once they get accepted, but a rejection or an acceptance is ultimately beyond your control. What you *do* have control over though is the work you put into the project. And taking a project from idea to submission is a significant achievement! Therefore, after submission, take some time to appreciate your work and celebrate your submission!
+:::
+
+Now when you have your work submitted, it will go through peer review in what is known as the scientific review process. And that is the topic of the next module!
