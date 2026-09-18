@@ -1,1 +1,5 @@
-# Module 8 — Follow-up
+# 1.8 Presenting a Poster
+
+::: {.callout-note title="Tip!"}
+The poster doesn't have to explain it all. See it as the *start* of a conversation. If your poster makes people stop in their tracks and become curious to learn more, you did a great job.
+:::
